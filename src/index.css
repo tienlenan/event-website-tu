@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.heart-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../public/background.png');
+  background-size: cover;
+  /* Changed from contain to cover */
+  /* Changed from cover to contain */
+  background-position: center;
+  overflow: hidden;
+}

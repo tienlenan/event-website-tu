@@ -1,0 +1,47 @@
+/* Heart.css */
+.heart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7fafc;
+    /* Equivalent to bg-gray-100 */
+    cursor: pointer;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.heart-animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.heart-image {
+    border-radius: 0.5rem;
+    /* Equivalent to rounded-lg */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* Equivalent to shadow-lg */
+    position: absolute;
+    inset: 0;
+}
+
+.heart-text {
+    font-size: 1.25rem;
+    /* Equivalent to text-xl */
+    color: #4a5568;
+    /* Equivalent to text-gray-600 */
+    text-align: center;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-button {
+    background-color: transparent;
+    /* Set background to transparent */
+    border: none;
+    /* Remove border */
+}
